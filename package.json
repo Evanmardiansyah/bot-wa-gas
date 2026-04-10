@@ -1,0 +1,16 @@
+{
+  "name": "wa-gas-bridge",
+  "version": "1.0.0",
+  "description": "Bridge Baileys ke GAS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "pino": "^8.20.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
